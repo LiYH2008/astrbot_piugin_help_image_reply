@@ -20,6 +20,8 @@
 ```text
 /help
 
+---
+
 机器人回复：
 assets/help.png
 即插件目录中的帮助图片。
