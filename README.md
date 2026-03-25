@@ -19,8 +19,20 @@
 
 `/help `
 
----
-
 机器人回复：
 assets/help.png
 即插件目录中的帮助图片。
+
+---
+
+## 目录结构
+
+`help_image_reply/
+├─ main.py
+├─ metadata.yaml
+├─ requirements.txt
+├─ README.md
+└─ assets/
+   └─ help.png`
+
+
