@@ -27,12 +27,72 @@ assets/help.png
 
 ## 目录结构
 
-`help_image_reply/
+```text
+help_image_reply/
 ├─ main.py
 ├─ metadata.yaml
 ├─ requirements.txt
 ├─ README.md
 └─ assets/
-   └─ help.png`
+   └─ help.png
+```
 
+## 安装方法
+
+将插件目录放入 AstrBot 的插件目录中：
+
+```text
+AstrBot/data/plugins/help_image_reply
+```
+
+确保图片文件存在：
+
+```text
+AstrBot/data/plugins/help_image_reply/assets/help.png
+```
+
+然后重载或重启 AstrBot，使插件生效。
+
+## 使用方法
+
+在聊天中发送以下指令：
+
+```text
+/help
+```
+
+机器人会自动回复本地图片。
+
+## 快速开始
+
+### 1. 放置插件
+
+把整个 `help_image_reply` 文件夹放到：
+
+```text
+AstrBot/data/plugins/
+```
+
+### 2. 检查图片资源
+
+确认图片存在于：
+
+```text
+assets/help.png
+```
+
+### 3. 启动或重载插件
+
+启动 AstrBot，或在管理界面中重载插件。
+
+### 4. 测试指令
+
+发送：
+
+```text
+/help
+```
+
+如果配置正确，机器人会返回帮助图片。
+```
 
