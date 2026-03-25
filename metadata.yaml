@@ -1,0 +1,5 @@
+name: help_image_reply
+author: your_name
+desc: 收到 /help 指令时回复自定义图片
+version: 1.0.2
+repo: https://github.com/LiYH2008/astrbot_piugin_help_image_reply
